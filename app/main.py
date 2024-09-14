@@ -5,4 +5,4 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
-app.include_router(item.item_router, prefix='/score', tags=['Score'])
+app.include_router(score.score_router, prefix='/score', tags=['Score'])
