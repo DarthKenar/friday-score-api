@@ -1,120 +1,129 @@
 {
-  "step_one": {
-    "title": "¿Como te sentiste con tu trabajo?",
-    "items": [
-      {
-        "title": "item 1",
-        "score": 0
-      }
-    ],
-    "weight": 1
-  },
-  "step_two": {
-    "title": "¿Cumpliste con tus objetivos?",
-    "items": [
-      {
-        "title": "Todos",
-        "score": 10
-      },
-      {
-        "title": "Casi todos",
-        "score": 7.5
-      },
-      {
-        "title": "Algunos",
-        "score": 5
-      }
-    ],
-    "weight": 2
-  },
-  "step_three": {
-    "title": "¿Como trabajaste en equipo?",
-    "items": [
-      {
-        "title": "Bien",
-        "score": 10
-      },
-      {
-        "title": "Regular",
-        "score": 5
-      },
-      {
-        "title": "Mal",
-        "score": 1
-      }
-    ],
-    "weight": 1
-  },
-  "step_four": {
-    "title": "¿Tuviste alguna dificultad?",
-    "items": [
-      {
-        "title": "Si",
-        "score": null
-      },
-      {
-        "title": "No",
-        "score": null
-      },
-      {
-        "title": "Yo soy la dificultad",
-        "score": null
-      }
-    ],
-    "weight": null
-  },
-  "step_four_plus": {
-    "title": "¿Lograste superarla?",
-    "items": [
-      {
-        "title": "Si",
-        "score": 10
-      },
-      {
-        "title": "Hardcodeando",
-        "score": 5
-      },
-      {
-        "title": "No",
-        "score": 1
-      }
-    ],
-    "weight": 1
-  },
-  "step_five": {
-    "title": "¿Aprendiste algo nuevo?",
-    "items": [
-      {
-        "title": "Si",
-        "score": 10
-      },
-      {
-        "title": "No",
-        "score": 1
-      }
-    ],
-    "weight": 1
-  },
-  "step_six": {
-    "title": "¿Estas contento con tu progreso?",
-    "items": [
-      {
-        "title": "Progreso es mi segundo nombre",
-        "score": 10
-      },
-      {
-        "title": "Contento",
-        "score": 7.5
-      },
-      {
-        "title": "Regular",
-        "score": 5
-      },
-      {
-        "title": "No",
-        "score": 1
-      }
-    ],
-    "weight": 1
-  }
+  "steps": [
+    {
+      "key": "step_one",
+      "title": "¿Como te sentiste con tu trabajo?",
+      "items": [
+        {
+          "title": "item 1",
+          "score": 0
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "key": "step_two",
+      "title": "¿Cumpliste con tus objetivos?",
+      "items": [
+        {
+          "title": "Todos",
+          "score": 10
+        },
+        {
+          "title": "Casi todos",
+          "score": 7.5
+        },
+        {
+          "title": "Algunos",
+          "score": 5
+        }
+      ],
+      "weight": 2
+    },
+    {
+      "key": "step_three",
+      "title": "¿Como trabajaste en equipo?",
+      "items": [
+        {
+          "title": "Bien",
+          "score": 10
+        },
+        {
+          "title": "Regular",
+          "score": 5
+        },
+        {
+          "title": "Mal",
+          "score": 1
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "key": "step_four",
+      "title": "¿Tuviste alguna dificultad?",
+      "items": [
+        {
+          "title": "Si",
+          "score": null
+        },
+        {
+          "title": "No",
+          "score": null
+        },
+        {
+          "title": "Yo soy la dificultad",
+          "score": null
+        }
+      ],
+      "weight": null
+    },
+    {
+      "key": "step_four_plus",
+      "title": "¿Lograste superarla?",
+      "items": [
+        {
+          "title": "Si",
+          "score": 10
+        },
+        {
+          "title": "Hardcodeando",
+          "score": 5
+        },
+        {
+          "title": "No",
+          "score": 1
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "key": "step_five",
+      "title": "¿Aprendiste algo nuevo?",
+      "items": [
+        {
+          "title": "Si",
+          "score": 10
+        },
+        {
+          "title": "No",
+          "score": 1
+        }
+      ],
+      "weight": 1
+    },
+    {
+      "key": "step_six",
+      "title": "¿Estas contento con tu progreso?",
+      "items": [
+        {
+          "title": "Progreso es mi segundo nombre",
+          "score": 10
+        },
+        {
+          "title": "Contento",
+          "score": 7.5
+        },
+        {
+          "title": "Regular",
+          "score": 5
+        },
+        {
+          "title": "No",
+          "score": 1
+        }
+      ],
+      "weight": 1
+    }
+  ]
 }

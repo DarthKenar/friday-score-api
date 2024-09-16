@@ -1,4 +1,4 @@
-from typing import Union, Optional	
+from typing import Union, Optional, List
 from app.routes import score
 from fastapi import FastAPI
 from pydantic import BaseModel

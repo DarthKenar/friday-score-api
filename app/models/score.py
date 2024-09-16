@@ -1,6 +1,15 @@
 from pydantic import BaseModel
-from typing import Union
+from typing import List
 
-class Score(BaseModel):
-    id: int
-    name: str
+class ItemStep(BaseModel):
+    title: int
+    score: str
+class Step(BaseModel):
+    key: str
+    title: str
+    items: List[ItemStep]
+    weight: int
+
+class Data(BaseModel):
+    steps: List[Step]
+
